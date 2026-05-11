@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
+
+html, body {
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Comic Neue', 'Comic Sans MS', system-ui, sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+  overscroll-behavior: none;
+}
+
+button { font-family: inherit; }
+
+.no-touch-scroll { touch-action: none; }

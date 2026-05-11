@@ -1,0 +1,14 @@
+[
+  { "id": "s1",  "name": "Ahmet",   "avatar": "🦁" },
+  { "id": "s2",  "name": "Ayşe",    "avatar": "🦋" },
+  { "id": "s3",  "name": "Mehmet",  "avatar": "🐯" },
+  { "id": "s4",  "name": "Zeynep",  "avatar": "🦄" },
+  { "id": "s5",  "name": "Emir",    "avatar": "🐸" },
+  { "id": "s6",  "name": "Elif",    "avatar": "🐱" },
+  { "id": "s7",  "name": "Kaan",    "avatar": "🦊" },
+  { "id": "s8",  "name": "Defne",   "avatar": "🐰" },
+  { "id": "s9",  "name": "Yiğit",   "avatar": "🐼" },
+  { "id": "s10", "name": "Mira",    "avatar": "🐧" },
+  { "id": "s11", "name": "Arda",    "avatar": "🦉" },
+  { "id": "s12", "name": "Lina",    "avatar": "🦒" }
+]
