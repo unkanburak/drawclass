@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 
-const TEACHER_PIN = process.env.NEXT_PUBLIC_TEACHER_PIN || "1234";
+const TEACHER_PIN = process.env.NEXT_PUBLIC_TEACHER_PIN || "5234";
 const STORAGE_KEY = "teacher-authed";
 
 export function TeacherGate({ children }: { children: React.ReactNode }) {
@@ -41,7 +41,7 @@ export function TeacherGate({ children }: { children: React.ReactNode }) {
     <main className="min-h-screen flex flex-col items-center justify-center gap-6 p-6">
       <div className="text-6xl">🔒</div>
       <h1 className="text-3xl font-bold text-slate-700">Öğretmen Girişi</h1>
-      <p className="text-slate-500">PIN gir (varsayılan: 1234)</p>
+      <p className="text-slate-500">PIN gir</p>
 
       <div className={`flex gap-3 ${shake ? "animate-pulse" : ""}`}>
         {Array.from({ length: TEACHER_PIN.length }).map((_, i) => (
